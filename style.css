@@ -360,9 +360,6 @@ a h1 {
         max-height: 100%;
     }
 
-    .smallRect p {
-        font-size: 16px;
-    }
 
     .sale-container {
         display: flex;
@@ -378,5 +375,46 @@ a h1 {
  
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .container {
+        width: 90%;
+    }
+    .right-bar img {
+        content: url(img/nav-phone.png);
+    }
+
+    .top {
+        height: 363px;
+    }
+
+    .top-img {
+        display: none;
+    }
+
+    .description {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .categories {
+        gap: 32px;
+    }
+
+    .smallRect {
+        flex: none;
+    }
+
+    .sale-cards {
+        flex: none;
+    }
+
+
+
+
+
+}
 
 
